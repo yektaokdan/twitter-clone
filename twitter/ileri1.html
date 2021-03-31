@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Twitter. İşte olup bitenler. / Twitter</title>
+    <link rel="shortcut icon" type="image/png" href="/twitter/icon/twitter.ico">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+<style>
+    
+    *{
+    margin: 0px;
+    padding: 0px;
+}
+
+.solgorsel {
+    display:flex;
+    position: absolute;
+    z-index: -1;
+}
+
+#solgorseltw{
+    width: 1100px;
+    height: 905px;
+}
+
+.sagkisim p{
+    font-size: 85px;
+    font-family: inherit;
+    position: relative;
+    left: 1185px;
+    top: 260px;
+    font-family:"Rubik",sans-serif;
+}
+#sagkisimaltyazi{
+    font-size: 29px;
+    font-family: inherit;
+    position: relative;
+    left: 1185px;
+    top: 300px;
+    font-family:"Rubik",sans-serif;
+    word-spacing: 7px;
+}
+
+.butonlar button{
+    display: block;
+    position: relative;
+    width: 370px;
+    height: 50px;
+    margin: 15px 0 0 0;
+    left: 1189px;
+    top: 320px;
+    border: 0px solid white;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;   
+}
+
+.errorFooter{
+    position: relative;
+    top: 560px;
+    left: 30px;
+}
+.errorFooter a{
+    padding-right: 27px;
+    text-decoration:none;
+    color: #525252;
+    font-family:serif;
+}
+.errorFooter p{color: grey;}
+.errorFooter a:hover{
+    text-decoration: underline;
+    
+}
+
+.kayit{
+    background-color:#1DA1F2; 
+    color: white;
+}
+
+.kayit:hover{
+    background-color: #1493e2;
+    cursor: pointer;
+    transition: all 0.4s ease 0s;
+}
+
+#girisbutton{
+    background: white;
+    border: 1px solid #1DA1F2;
+    color: #1DA1F2;
+}
+
+#girisbutton:hover{
+    cursor: pointer;
+    background-color: #e5eff5;
+    transition: all 0.4s ease 0s;
+}
+.butonlar a{
+    text-decoration: none;
+}
+
+    .container{
+        opacity: 40%;
+        
+    }
+    
+    .kayit1{
+        width: 650px;
+        height: 500px;
+        background-color: white;
+        display:block;
+        position:absolute;
+        top: 150px;
+        left: 550px;
+        opacity: 100%;
+        z-index: 1;
+        border: 0px solid white;
+        border-radius: 20px;
+    }
+    #ileributton button{
+        position: relative;
+        left: 575px;
+        bottom: -18px;
+        width: 70px;
+        height: 30px;
+        border: 0px solid white;
+        color: white;
+        font-family:Rubik;
+        background-color: #1da1f2;
+        border-radius: 50px;
+    }
+    
+    .buttons input{
+         display: block;
+         position: relative;
+         margin-left: 30px;
+         margin-right: 30px;
+         width: 585px;
+         margin-bottom: 30px;
+        height: 50px;
+        border:1px solid #d6d5d5;
+        border-radius: 6px;
+        top: 105px;
+    }
+    
+    #yonlendirmeeposta a{
+        margin-left: 30px; 
+        position: absolute; 
+        text-decoration: none;
+        font-family:sans-serif;
+        font-size: 14px;
+        top: 300px;
+    }
+    #yardimmerkeziyonlendirme{
+        text-decoration: none;
+        color: #1da1f2;
+    }
+    #yardimmerkeziyonlendirme:hover{
+        text-decoration: underline;
+    }
+    #ileributtoni1:hover{
+        background-color:#1493e2;
+        transition: all 0.3s ease 0s;
+    }
+</style>
+</head>
+<body>
+  <div class="kayit1">
+      <span id="twlogo"><center><img src="/twitter/img/twittersag.png" alt="" style="width: 35px; position:absolute; top: 20px;"></center></span>
+      <span id="ileributton">
+          <button id="ileributtoni1" style="cursor: pointer;">İleri</button>
+      </span>
+      <span id="onyazi" style="font-family: Rubik,sans-serif; color: black; font-size: 23px;"><p style="margin-left: 30px; position: absolute; top: 90px;">Deneyimini özelleştir</p></span>
+      <p style="font-family: Rubik,sans-serif; margin-left: 30px; position: absolute; top: 160px;">Twitter içeriğini web'de nerede gördüğünü takip et</p>
+      <p style="margin-left: 30px; margin-right: 30px; font-family: Roboto; color: #676767; position: absolute; top: 200px;">Twitter bu verileri deneyimini kişiselleştirmek için kullanır. Bu web gezintisi geçmişi hiçbir zaman adın, e-posta adresin veya telefon numaranla saklanmayacaktır.</p>
+      <p style="margin-left: 30px; margin-right: 30px; font-family: Roboto,sans-serif; color: #898989; position: absolute; top: 300px;">Bu ayarlarla ilgili daha fazla ayrıntı için <a href="#" id="yardimmerkeziyonlendirme">Yardım Merkezi</a>'ni ziyaret et.</p>
+  </div>
+   <div class="container">
+    <div class="solgorsel">
+        <img src="/twitter/img/solgorsel.png" id="solgorseltw" alt="">
+    </div>
+    <div class="solgorsellogo">
+        <img src="/twitter/img/twitter.png" alt="" id="solgorsellogo" style=" width: 500px; position: absolute; left: 270px; top: 200px;">
+    </div>
+    <div class="sagkisim">
+        <span id="ufaklogosag"><img src="/twitter/img/twittersag.png" alt="" style=" width: 40px;  position: absolute; right: 690px; top: 150px;"></span>
+        <p>Şu anda olup</p>
+        <p>bitenler</p>
+    </div>
+    <span id="sagkisimaltyazi">
+        <p>Twitter'a bugün katıl.</p>
+    </span>
+    
+    <div class="butonlar">
+        <button class="kayit" id="kayitbutton">Kaydol</button>
+        <a href="giris.html"><button class="giris" id="girisbutton"  onclick="window.setTimeout(function(){location.href='giris.html';}, 500);">Giriş Yap</button></a>
+    </div>
+    <p class="errorFooter">
+      <a href="#">Hakkında</a>
+      <a href="#">Yardım Merkezi</a>
+      <a href="https://twitter.com/tos">Hizmet Şartları</a>
+      <a href="https://twitter.com/privacy">Gizlilik Politikası</a>
+      <a href="https://support.twitter.com/articles/20170514">Çerez Politikası</a>
+      <a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html">Reklam bilgisi</a>
+      <a href="#">Blog</a>
+      <a href="#">Durum</a>
+      <a href="#">Kariyer</a>
+      <a href="#">Marka Kaynakları</a>
+      <a href="#">Reklam</a>
+      <a href="#">Pazarlama</a>
+      <a href="#">İşletmeler İçin Twitter</a>
+      <a href="#">Geliştiriciler</a>
+      <a href="#">Dizin</a>
+      <a href="#">Ayarlar</a>
+      © 2021 Twitter, Inc.
+    </p>
+    </div>
+</body>
+</html>

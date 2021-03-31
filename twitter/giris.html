@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Twitter'a giriş yap / Twitter</title>
+    <style>
+    
+        .container{
+            margin: 0 auto;
+            width: 560px;
+            
+        }
+        #twitterlittle{
+            width: 40px;
+            position: absolute;
+        }
+        .inputlar{
+            
+        }
+        
+        .inputlar input{
+            display: block;
+            position: relative;
+            width: 300px;
+            height: 50px;
+            border: 1px solid #bfbfbf;
+            border-radius: 5px;
+            margin-bottom: 25px;
+            top: 100px;
+            left: 45px;
+        }
+        #buttongiris button{
+            width: 310px;
+            height: 50px;
+            position: absolute;
+            top: 400px;
+            left: 723px;
+            background-color: #1da1f2;
+            border: 1px solid white;
+            border-radius: 50px;
+            font-family: Rubik, sans-serif;
+            color: white;
+        }
+        
+        #buttongiris button:hover{
+            cursor: pointer;
+            background-color:#1493e2;
+            transition: all 0.4s ease 0s;
+        }
+    
+        .hatirlatmalar a{
+            position: relative;
+            font-family: sans-serif;
+            top: 190px;
+            left: 70px;
+            color: #1da1f2;
+            text-decoration: none;
+        }
+        
+        .hatirlatmalar a:hover{
+            text-decoration: underline;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700;900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/png" href="/twitter/icon/twitter.ico">
+</head>
+<body>
+    <div class="container">
+        <img id="twitterlittle" src="/twitter/img/twittersag.png" alt="">
+        <p style="font-family:Rubik;  font-size: 45px; position: relative; top: 90px;">Twitter'a giriş yap</p>
+        <div class="inputlar">
+            <input type="text" placeholder="Telefon, e-posta veya kullanıcı adı" required>
+            <input type="password" placeholder="Şifre" required>
+        </div>
+        <div id="buttongiris">
+            <button>Giriş yap</button>
+        </div>
+        
+        <div class="hatirlatmalar">
+            <a href="#" onclick="window.setTimeout(function(){location.href='sifreyiunuttum.html';}, 500);">Şifreni mi unuttun? •</a>
+            <a href="#" onclick="window.setTimeout(function(){location.href='kayit.html';}, 500);"> Twitter'a kaydol</a>
+        </div>
+    </div>
+</body>
+</html>

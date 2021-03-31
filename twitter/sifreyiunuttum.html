@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/png" href="/twitter/icon/twitter.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <title>Şifre Sıfırlama</title>
+    <style>
+        .ustkisim {
+            margin-right: 570px;
+            margin-left: 570px;
+            height: 50px;
+        }
+
+        hr {
+            border: none;
+            height: 20px;
+            width: 100%;
+            height: 50px;
+            margin-top: 0;
+            border-bottom: 0.5px solid #cecece;
+            box-shadow: 0 5px 20px -20px #333;
+            margin: -50px auto 10px;
+        }
+        
+        .container{
+            margin-left: 570px;
+            margin-right: 570px;
+        }
+        #aramabutonusu{
+            cursor: pointer;
+            margin-top: 30px; 
+            width: 90px; 
+            height: 40px; 
+            border: 1px solid #1da1f2; 
+            border-radius: 30px; 
+            color: white; 
+            font-family: Rubik,sans-serif; 
+            background-color: #1da1f2;
+        }
+        #aramabutonusu:hover{
+            background-color: #1493e2;
+            border: 1px solid #1493e2;
+            transition: all 0.3s ease 0s;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="ustkisim">
+            <a href="#" onclick="window.setTimeout(function(){location.href='index.html';}, 500);"><img src="/twitter/img/twittersag.png" alt="" style="width: 30px; position: absolute; top: 20px;"></a>
+            <p style="position: absolute; top: 10px; left: 630px; color: #797979; font-family: Roboto; font-size: 15px;">Şifre Sıfırlama</p>
+            <p style="position: absolute; top: 10px; right: 600px; color:#797979; font-family: Roboto,sans-serif; font-size: 15px; cursor: pointer;">Türkçe ▼</p>
+        </div>
+        <hr>
+    </header>
+    
+    <div class="container">
+        <p style="font-family: Rubik,sans-serif; margin-top: 50px; font-size: 28px;">
+            Twitter hesabınızı bulun
+        </p>
+        <p style="font-family: Roboto,sans-serif; font-size: 14px; color: #727272">
+            E-posta adresini, telefon numaranı ya da kullanıcı adını gir.
+        </p>
+        <input type="text" required style="width: 330px; height: 35px; border: 1px solid grey; border-radius: 30px;">
+        <br>
+        <button id="aramabutonusu">Arama</button>
+    </div>
+</body></html>
